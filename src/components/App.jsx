@@ -5,6 +5,8 @@ import { ContactList } from 'components/ContactList/ContactList';
 import { Filter } from 'components/Filter/Filter';
 import * as s from './App.styled';
 
+const STORAGE_KEY = 'contact-list';
+
 class App extends Component {
   state = {
     contacts: [
