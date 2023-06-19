@@ -70,7 +70,6 @@ class App extends Component {
   render() {
     const { filter } = this.state;
     const searchUser = this.searchUser();
-    console.log(this.state); // щоб побачити nanoid()
 
     return (
       <s.Container>
